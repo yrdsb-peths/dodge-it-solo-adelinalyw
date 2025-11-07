@@ -6,7 +6,6 @@ public class Hero extends Actor
     
     public void act()
     {
-        move (1);
         if (Greenfoot.mouseClicked(null)) {
             atTop = !atTop;
         }
